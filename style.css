@@ -664,7 +664,7 @@ section.mydiary {
     flex-direction: column;
     align-items: center;
     row-gap: 0.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .text-for-info { 
@@ -904,7 +904,6 @@ section.mydiary {
         font-size: 33px;
         line-height: 55px;
     }
-
 }
 
 @media (max-width: 800px) {

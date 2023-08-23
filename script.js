@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    //Scroll Up/Down - Sticky Navigation Menu:
+    //Scroll Up/Down - Sticky Responsive Navigation Menu:
     $(window).scroll(function() {
         if(this.scrollY > 20) {
             $('.nav').addClass("sticky");
