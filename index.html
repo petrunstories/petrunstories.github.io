@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrun Stories || Official Website</title>
+    <link href="Images/favicon.png" rel="icon">
+    <!-- Using Swiper CSS, by Vladimir Kharlampidi --> 
+    <link href="Swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+    <!-- My CSS File --> 
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/4817ced3ae.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Responsive Navigation Menu -->
+    <nav class="nav">
+        <div class="max-width">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#home"><img src="Images/Logo.png" class="pic"></a>
+            </div>
+            <!-- Menu -->
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn" id="menu_choice1">Αρχική</a></li>
+                <li><a href="#about" class="menu-btn" id="menu_choice2">Σχετικά</a></li>
+                <li><a href="#mydiary" class="menu-btn" id="menu_choice3">Ημερολόγιο</a></li>
+                <li><a href="#contact" class="menu-btn" id="menu_choice4">Επικοινωνία</a></li>
+                <li><img src="Images/ENFlag.png" class="flag" id="languageChanger"></li>
+                <img src="Images/Logo.png" class="small_logo">
+            </ul>
+            <!-- Menu Button > for Responsive -->
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <!-- Image Avatar -->
+            <div class="ImageAvatar"> 
+                <a href="#about"><img src="Images/favpic.jpg" alt="Avatar"></a>
+            </div>
+            <!-- Home Content -->
+            <div class="home-content">
+                <div class="text-1" id="text-1">Καλώς ήρθατε στον</div>
+                <div class="text-2">
+                    <span class="text-animation">
+                        <span class="text-wrapper">
+                            <span class="letters">Petrun Stories</span>
+                        </span>
+                    </span>
+                </div>
+                <div class="text-3" id="text-3">Επίσημο Ιστότοπο!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="sectionTitle" id="about-title">☛ Σχετικά ☚</div>
+        <div class="tabs">
+            <!-- 1st Tab of information -->
+            <div class="tab-2">
+                <label for="tab2-1" id="about-title1-1">Σχετικά Με Εμένα</label>
+                <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+                <div class="myInfo">
+                    <h2 id="about-title1-2">Λίγα Λόγια</h2>
+                    <p id="about-p1">
+                        Ο Πέτρος Λώλης είναι ο ιδρυτής και ιδιοκτήτης του Petrun Stories. 
+                        Είναι απόφοιτος του Τμήματος Επιστήμης Φυσικής Αγωγής και Αθλητισμού 
+                        (Τ.Ε.Φ.Α.Α.) του Πανεπιστημίου Θεσσαλίας. Ασχολείται με τον κλασικό 
+                        αθλητισμό σε αγωνιστικό επίπεδο τα τελευταία 8 χρόνια, έχοντας συμμετοχές 
+                        και διακρίσεις σε πανελλήνιο επίπεδο σε αγωνίσματα μεσαίων και μεγάλων 
+                        αποστάσεων (3000 μέτρα με Φυσικά Εμπόδια, 5000 μέτρα). Ασκεί το επάγγελμα 
+                        του προπονητή στίβου και του καθηγητή Φυσικής Αγωγής σε σωματείο στίβου στα 
+                        Ιωάννινα. Από τον Σεπτέμβριο του 2023 θέλησε να δημιουργήσει το πρώτο ελληνικό 
+                        κανάλι εκλαϊκευμένης επιστήμης σχετικά με τον Αθλητισμό και την Φυσική Αγωγή.
+                    </p> <br/>
+                    <h2 id="about-title1-3">Φωτογραφίες</h2>
+                    <br/>
+                    <p>
+                        <img src="Images/Petrun2.jpg" alt=" ">
+                        <img src="Images/Petrun3.jpeg" alt=" "> 
+                    </p>
+                </div>
+            </div>
+            <!-- 2nd Tab of information -->
+            <div class="tab-2">
+                <label for="tab2-2" id="about-title2-1">Τι είναι Petrun Stories</label>
+                <input id="tab2-2" name="tabs-two" type="radio">
+                <div class="myInfo">
+                    <h2 id="about-title2-2">Σφαιρική Εικόνα</h2>
+                    <p id="about-p2-1">
+                        Το Petrun Stories αποτελεί το 1ο κανάλι στο Youtube στην Ελλάδα που ασχολείται 
+                        με θέματα της επιστήμης του Αθλητισμού και της Φυσικής Αγωγής. Η επικοινωνία της 
+                        επιστήμης στην Ελλάδα μέσω καναλιών στο Youtube έχει γνωρίσει άνθηση τα τελευταία 
+                        χρόνια. Η αθλητική επιστήμη και η φυσική αγωγή όμως δεν εκπροσωπούνται επαρκώς τόσο 
+                        στο διαδίκτυο αλλά και στο κατά πόσο διεισδύουν εντός της κοινωνίας έννοιες 
+                        σημαντικές, δημιουργώντας πολλές φορές παραπληροφόρηση πάνω σε θέματα άσκησης 
+                        και δημιουργώντας ¨μύθους¨ εντός της αθλητικής επιστήμης.
+                    </p> <br/>
+                    <h2 id="about-title2-3">Στόχος/Σκοπός</h2>
+                    <p id="about-p2-2">
+                        Το Petrun Stories ήρθε να καλύψει αυτό το κενό. Ήρθε για να πληροφορήσει το κοινό 
+                        που ενδιαφέρεται να μάθει για έννοιες σχετικά με τον Αθλητισμό και τη Φυσική Αγωγή 
+                        πάντα συνοδευόμενες από επιστημονική τεκμηρίωση.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Diary Section -->
+    <section class="mydiary" id="mydiary">
+        <div class="sectionTitle" id="diary-title">☛ Ημερολόγιο ☚</div> <br/>
+        <!-- Contents Greek -->
+        <div class="contents-base" id="contents-gr">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">ΠΟΙΕΣ ΕΙΝΑΙ ΟΙ ΑΘΛΗΤΙΚΕΣ ΔΟΚΙΜΑΣΙΕΣ ΓΙΑ ΝΑ ΜΠΩ ΣΤΑ ΤΕΦΑΑ;</h2>
+                                <p class="description">Φαντάσου, πως είσαι μαθητής/τρια Γ΄ λυκείου και σε λίγο καιρό δίνεις
+                                                       πανελλήνιες εξετάσεις για να μπεις σε κάποιο πανεπιστημιακό ...</p>
+                                <a href="Posts/post-1.html">
+                                    <button class="button">Ανάγνωση</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">ΠΟΙΕΣ ΕΙΝΑΙ ΟΙ ΑΘΛΗΤΙΚΕΣ ΔΟΚΙΜΑΣΙΕΣ ΓΙΑ ΝΑ ΜΠΩ ΣΤΑ ΤΕΦΑΑ;</h2>
+                                <p class="description">Φαντάσου, πως είσαι μαθητής/τρια Γ΄ λυκείου και σε λίγο καιρό δίνεις
+                                                       πανελλήνιες εξετάσεις για να μπεις σε κάποιο πανεπιστημιακό ...</p>
+                                <a href="Posts/post-1.html">
+                                    <button class="button">Ανάγνωση</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">ΠΟΙΕΣ ΕΙΝΑΙ ΟΙ ΑΘΛΗΤΙΚΕΣ ΔΟΚΙΜΑΣΙΕΣ ΓΙΑ ΝΑ ΜΠΩ ΣΤΑ ΤΕΦΑΑ;</h2>
+                                <p class="description">Φαντάσου, πως είσαι μαθητής/τρια Γ΄ λυκείου και σε λίγο καιρό δίνεις
+                                                       πανελλήνιες εξετάσεις για να μπεις σε κάποιο πανεπιστημιακό ...</p>
+                                <a href="Posts/post-1.html">
+                                    <button class="button">Ανάγνωση</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div> 
+                </div>
+            </div>
+        </div>
+        <!-- Contents English -->
+        <div class="contents-base" style="display: none;" id="contents-en">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">WHICH ARE THE ATHLETIC TESTS TO GET INTO THE UNIVERSITY DEPARTMENTS OF PHYSICAL EDUCATION &amp; SPORTS SCIENCE IN GREECE?</h2>
+                                <p class="description">Imagine, you are a third grade student and in a short time 
+                                                       you are taking a national exam to get into a university ...</p>
+                                <a href="Posts/post-1-en.html">
+                                    <button class="button">Read More</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">WHICH ARE THE ATHLETIC TESTS TO GET INTO THE UNIVERSITY DEPARTMENTS OF PHYSICAL EDUCATION &amp; SPORTS SCIENCE IN GREECE?</h2>
+                                <p class="description">Imagine, you are a third grade student and in a short time 
+                                                       you are taking a national exam to get into a university ...</p>
+                                <a href="Posts/post-1-en.html">
+                                    <button class="button">Read More</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">WHICH ARE THE ATHLETIC TESTS TO GET INTO THE UNIVERSITY DEPARTMENTS OF PHYSICAL EDUCATION &amp; SPORTS SCIENCE IN GREECE?</h2>
+                                <p class="description">Imagine, you are a third grade student and in a short time 
+                                                       you are taking a national exam to get into a university ...</p>
+                                <a href="Posts/post-1-en.html">
+                                    <button class="button">Read More</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="sectionTitle" id="contact-title">☛ Επικοινωνία ☚</div> <br/>
+        <!-- Contact Message -->
+        <div class="contactMessage">
+            <span id="contact-message">Επικοινωνήστε μαζί μου μέσω των <span style="color: #F12A27;">Social Media</span> ή στείλτε μου ένα μήνυμα χρησιμοποιώντας την παρακάτω <span style="color: #F12A27;">Φόρμα</span>!</span>
+        </div>
+        <div class="contact-base">
+            <!-- Social Media -->
+            <div class="socialMedia">
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCylNZF5bVimhq-ckWN3W--A" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a><span>Youtube</span></li>
+                    <li><a href="https://www.instagram.com/petrun_stories/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a><span>Instagram</span></li>
+                    <li><a href="https://www.facebook.com/people/Petrun-Stories/100071170714111/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a><span>Facebook</span></li> 
+                    <li><a href="https://www.linkedin.com/in/petros-lolis-3b068320a/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a><span>LinkedIn</span></li>
+                    <li><a href="https://www.tiktok.com/@petrunstories" target="_blank"><i class="fab fa-tiktok" aria-hidden="true"></i></a><span>TikTok</span></li> 
+                </ul>
+            </div>
+            <!-- Contact Form -->
+            <div class="contactForm">
+                <form action="https://formsubmit.co/petrunlolis14@gmail.com" method="POST"> 
+                    <div class="row">
+                        <div class="input-group">
+                            <input type="text" name="Name" id="name" required>
+                            <label for="name" id="label-name"><i class="fas fa-user"></i> Όνομα</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="Email" id="email" required>
+                            <label for="email" id="label-email"><i class="fas fa-envelope"></i> Email</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="Subject" id="subject" required>
+                        <label for="subject" id="label-subject"><i class="fas fa-question-circle"></i> Θέμα</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="Message" id="message" rows="8" required></textarea>
+                        <label for="message" id="label-message"><i class="fas fa-comments"></i> Γράψτε ένα Μήνυμα</label>
+                    </div>
+                    <button type="submit" id="final-submit">ΥΠΟΒΟΛΗ <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Footer Section -->
+    <footer>
+        <span>Created by <a href="https://alexoiik.github.io/" target="_blank">alexoiik</a> <span class="fa fa-copyright"></span> 2023 All rights reserved.</span> 
+    </footer>
+
+    <!-- Using Swiper JS, by Vladimir Kharlampidi --> 
+    <script src="Swiper/swiper-bundle.min.js"></script>
+    <!-- My JS Script -->
+    <script src="script.js" type="text/javascript"></script>
+    <!-- JS Text Animation: -->
+    <script>
+        var textWrapper = document.querySelector('.text-animation');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({loop: true})
+        .add({
+            targets: '.text-animation .letter',
+            scale: [0, 1],
+            duration: 1500,
+            elasticity: 600,
+            delay: (el, i) => 45 * (i+1)
+        }).add({
+            targets: '.text-animation',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+        });
+    </script>
+</body>
+</html>
