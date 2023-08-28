@@ -114,6 +114,10 @@ div.sectionTitle {
 /* Home Section */
 .home {
     display: flex;
+    /* 
+    Photo by Rei Yamazaki: https://unsplash.com/@kryhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText 
+    on Unsplash: https://unsplash.com/photos/eoC2PdEXoSc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    */
     background: url("Images/TnF-Forest-background.jpg") no-repeat center;
     height: 100vh;
     color: #f1f1f1;
@@ -321,6 +325,10 @@ div.sectionTitle {
 
 /* About Section */
 .about {
+    /* 
+    Photo by Allec Gomes: https://unsplash.com/@allecgomes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    on Unsplash: https://unsplash.com/photos/fuooELn4jyA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+   */
     background: url("Images/dark-background.jpg") no-repeat center;
     background-size: cover;
 }
@@ -458,6 +466,10 @@ div.sectionTitle {
 
 /* My Diary Section */
 section.mydiary {
+    /* 
+    Photo by Rei Yamazaki: https://unsplash.com/@kryhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText 
+    on Unsplash: https://unsplash.com/photos/eoC2PdEXoSc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    */
     background: url("Images/TnF-Forest-background.jpg") no-repeat center;
     background-size: cover;
 }
@@ -599,6 +611,10 @@ section.mydiary {
 }
 
 .centered-pic {
+    /* 
+    Photo by Rei Yamazaki: https://unsplash.com/@kryhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText 
+    on Unsplash: https://unsplash.com/photos/eoC2PdEXoSc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    */
     background-image: url("Images/TnF-Forest-background.jpg");
     text-align: center;
     background-size: cover;
@@ -667,6 +683,14 @@ section.mydiary {
     margin-bottom: 1.5rem;
 }
 
+.info-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+
 .text-for-info { 
     font-size: 1.5rem; 
 }
@@ -730,6 +754,10 @@ section.mydiary {
 
 /* Contact Section */
 .contact {
+    /* 
+    Photo by Allec Gomes: https://unsplash.com/@allecgomes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    on Unsplash: https://unsplash.com/photos/fuooELn4jyA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+   */
     background: url("Images/dark-background.jpg") no-repeat center;
     color: #f1f1f1;
     min-height: 500px;
@@ -972,6 +1000,10 @@ section.mydiary {
 
 /* Footer Section */
 footer {
+    /* 
+    Photo by Rei Yamazaki: https://unsplash.com/@kryhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText 
+    on Unsplash: https://unsplash.com/photos/eoC2PdEXoSc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    */
     background-image: url(Images/TnF-Forest-background.jpg);
     padding: 15px 23px;
     text-align: center;
