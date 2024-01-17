@@ -331,6 +331,8 @@ div.sectionTitle {
    */
     background: url("Images/dark-background.jpg") no-repeat center;
     background-size: cover;
+    padding-left: 280px;
+    padding-right: 280px;
 }
 
 .tabs button:focus, input:focus, textarea:focus, select:focus { 
@@ -443,11 +445,31 @@ div.sectionTitle {
 .tabs .tab-2 img {
     vertical-align: middle; 
     border-radius: 30%; 
-    width: 200px; 
-    height: 140px;
+    width: 240px; 
+    height: 200px;
+    margin: 4px;
+}
+
+@media (max-width: 1670px) {
+    .about {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width: 947px) {
+    .about {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .tabs {
         margin-right: 50px;
         margin-left: 50px;
