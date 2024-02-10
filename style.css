@@ -132,7 +132,7 @@ div.sectionTitle {
 }
 
 .home .home-content { 
-    padding-top: 95px;
+    padding-top: 130px;
     padding-left: 120px; 
 }
 
@@ -145,9 +145,9 @@ div.sectionTitle {
     font-weight: 600;
 }
 
-.home .home-content .text-3 { 
+/* .home .home-content .text-3 { 
     font-size: 45px; 
-}
+} */
 
 .home .home-content .text-2 span {
     color: #F12A27;

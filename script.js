@@ -58,7 +58,7 @@ var menu_choice3 = document.getElementById('menu_choice3');
 var menu_choice4 = document.getElementById('menu_choice4');
 //Home variables
 var text_1 = document.getElementById('text-1');
-var text_3 = document.getElementById('text-3');
+// var text_3 = document.getElementById('text-3');
 //About variables
 var about_title = document.getElementById('about-title');
 var about_title1_1 = document.getElementById('about-title1-1');
@@ -96,8 +96,8 @@ lang_flag.addEventListener('click', function() {
         menu_choice3.innerHTML = "Ημερολόγιο";
         menu_choice4.innerHTML = "Επικοινωνία";
         //Home ------
-        text_1.innerHTML = "Καλώς ήρθατε στον";
-        text_3.innerHTML = "Επίσημο Ιστότοπο!"
+        text_1.innerHTML = "Καλώς ήρθατε στο";
+        // text_3.innerHTML = "Επίσημο Ιστότοπο!"
         //About ------
         about_title.innerHTML = "☛ Σχετικά ☚";
         about_title1_1.innerHTML = "Σχετικά Με Εμένα";
@@ -132,7 +132,7 @@ lang_flag.addEventListener('click', function() {
         menu_choice4.innerHTML = "Contact";
         //Home ------
         text_1.innerHTML = "Welcome to";
-        text_3.innerHTML = "Official Website!"
+        // text_3.innerHTML = "Official Website!"
         //About ------
         about_title.innerHTML = "☛ About ☚";
         about_title1_1.innerHTML = "About Me";
