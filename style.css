@@ -526,6 +526,13 @@ section.mydiary {
     padding: 10px 14px;
 }
 
+.card-content h2 {
+    text-align: center;
+    padding: 2px 0;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
 .image-content {
     position: relative;
     row-gap: 5px;
@@ -546,9 +553,9 @@ section.mydiary {
     content: '';
     position: absolute;
     right: 0;
-    bottom: -40px;
-    height: 40px;
-    width: 40px;
+    bottom: -30px;
+    height: 30px;
+    width: 30px;
     background-color: #F12A27;
 }
 
@@ -569,6 +576,8 @@ section.mydiary {
     font-size: 14px;
     color: #050608;
     text-align: justify;
+    line-height: 17px;
+    font-weight: 400;
 }
 
 .button {
