@@ -843,6 +843,13 @@ section.mydiary {
     border-radius: 20%;
 }
 
+.post-main-img2 {
+    width: 98%;
+    height: 700px;
+    padding-left: 16px;
+    border-radius: 20%;
+}
+
 @media (max-width: 560px) {
     .post-table tr th {
         font-size: 10px;
