@@ -790,6 +790,11 @@ section.mydiary {
     font-size: 13.5px;
 }
 
+.refs-2 {
+    text-align: center;
+    font-size: 12px;
+}
+
 .refs a {
     color: #050608;
     line-height: 25px;
